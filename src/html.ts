@@ -146,7 +146,7 @@ export default class Html {
     return this;
   }
   /**
-   * Retrieve the corresponding HTMLElement.
+   * Retrieve the corresponding HTMLElement, think of it as an 'unwrapper.'
    * @param element The element to retrieve. Can be an HTMLElement, Html instance, or a string (as query selector).
    * @returns The corresponding HTMLElement or null if QS and element are not found.
    */
